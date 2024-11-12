@@ -4,15 +4,122 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
-    <title>Document</title>
+    <title>Mobile adaptation</title>
   </head>
-  <body>
-    <div class="container">
-      <h1>Select layout</h1>
-      <div>
-        <a href="pages/email.html" target="_blank">Email</a>
-        <a href="pages/mobile.html" target="_blank">Mobile</a>
+  <body class="no-scrollbar">
+    <main class="main-flex">
+      <div class="header">
+        <div class="content-header"></div>
+        <h3>Mobile</h3>
       </div>
-    </div>
+
+      <section class="content">
+        <div class="content-left">
+          <div class="top-section content-left-top">
+            <ol>
+              <li>Використано тег ol</li>
+              <li>Використано тег ol</li>
+              <li>Використано тег ol</li>
+              <li>Використано тег ol</li>
+            </ol>
+          </div>
+          <div class="bottom-section no-scrollbar text content-left-bottom">
+            <p>CONTENT BLOCK 4</p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+            reiciendis fugit vel voluptas rerum nisi! Dolores iure iste ipsum
+            tempora alias delectus. Ut laudantium quibusdam laboriosam odio,
+            quis asperiores sed hic dolore tenetur quae excepturi, consequuntur
+            magnam illo labore sit a ipsa impedit eos corrupti dolorem iusto
+            inventore doloremque error architecto? Voluptatem odit voluptate
+            facere quas. Saepe et dolorem nobis est, impedit hic nulla? Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+            reiciendis fugit vel voluptas rerum nisi! Dolores iure iste ipsum
+            tempora alias delectus. Ut laudantium quibusdam laboriosam odio,
+            quis asperiores sed hic dolore tenetur quae excepturi, consequuntur
+            magnam illo labore sit a ipsa impedit eos corrupti dolorem iusto
+            inventore doloremque error architecto? Voluptatem odit voluptate
+            facere quas. Saepe et dolorem nobis est, impedit hic nulla?
+          </div>
+        </div>
+
+        <div class="content-middle no-scrollbar">
+          <div class="content-middle-top">
+            <h3>Зміна контенту блоку 4 та 5</h3>
+            <button class="content-switcher">
+              switch content left and right
+            </button>
+            <h3>Обчислення площі овала, за заданими змінними</h3>
+            <button class="area-calculator">Calculate the area of oval</button>
+
+            <h3>Підрахунок кількості слів, та збереження в cookies</h3>
+            <div>
+              <span>Введіть текст </span>
+              <input type="text" class="text-input" />
+            </div>
+            <button class="calculate-words">Підрахунок кількості слів</button>
+            <div class="number-of-words"></div>
+            <h3>
+              Додавання вирівнювання по лівому краю при подвійному натисненні
+            </h3>
+            <label>
+              <input type="checkbox" class="content-checkbox-left" />
+              Контент блоку ліворуч
+            </label>
+            <label>
+              <input type="checkbox" class="content-checkbox-middle" />
+              Контент центрального блоку
+            </label>
+            <label>
+              <input type="checkbox" class="content-checkbox-right" />
+              Контент правого блоку
+            </label>
+
+            <h3>Редагування блоків</h3>
+            <select class="select">
+              <option value="content-header">Header</option>
+              <option value="content-left-top">Left Top</option>
+              <option value="content-middle-top">Middle Top</option>
+              <option value="content-right">Right</option>
+              <option value="content-left-bottom">Left Bottom</option>
+              <option value="content-middle-bottom">Middle Bottom</option>
+              <option value="content-footer">Footer</option>
+            </select>
+            <div class="editor-container"></div>
+            <div class="area-of-oval"></div>
+          </div>
+          <div class="content-middle-bottom">Some content</div>
+        </div>
+
+        <div class="content-right">
+          <div class="text no-scrollbar">
+            <p>CONTENT BLOCK 5</p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+            reiciendis fugit vel voluptas rerum nisi! Dolores iure iste ipsum
+            tempora alias delectus. Ut laudantium quibusdam laboriosam odio,
+            quis asperiores sed hic dolore tenetur quae excepturi, consequuntur
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+            reiciendis fugit vel voluptas rerum nisi! Dolores iure iste ipsum
+            tempora alias delectus. Ut laudantium quibusdam laboriosam odio,
+            quis asperiores sed hic dolore tenetur quae excepturi, consequuntur
+            magnam illo labore sit a ipsa impedit eos corrupti dolorem iusto
+            inventore doloremque error architecto? Voluptatem odit voluptate
+            facere quas. Saepe et dolorem nobis est, impedit hic nulla? Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur
+            reiciendis fugit vel voluptas rerum nisi! Dolores iure iste ipsum
+            tempora alias delectus. Ut laudantium quibusdam laboriosam odio,
+            quis asperiores sed hic dolore tenetur quae excepturi, consequuntur
+            magnam illo labore sit a ipsa impedit eos corrupti dolorem iusto
+            inventore doloremque error architecto? Voluptatem odit voluptate
+            facere quas. Saepe et dolorem nobis est, impedit hic nulla?
+          </div>
+        </div>
+      </section>
+
+      <div class="footer">
+        <div class="content-footer"></div>
+        <h3>Mobile</h3>
+      </div>
+    </main>
+    <script src="script.js"></script>
   </body>
 </html>
